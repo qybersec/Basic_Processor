@@ -11,19 +11,22 @@ A simplified version of the BVC_Automator that focuses only on the core TMS busi
 
 ## 📋 What It Does
 
-### Core Business Rules Applied:
+### Core Business Rules Applied
+
 - **Same Carrier Rule**: Sets potential savings to $0 when selected carrier equals least cost carrier
 - **Empty Data Rule**: Copies selected carrier data to least cost when least cost data is missing
 - **Negative Savings Rule**: Fixes negative potential savings by copying selected data
 - **TL Carriers Rule**: Special handling for LANDSTAR and SMARTWAY carriers
 - **Professional Formatting**: Color-coded Excel output with summary statistics
 
-### Input Requirements:
+### Input Requirements
+
 - Excel file (.xlsx) with TMS data
 - Headers on row 8, data starting on row 11
 - Standard TMS column structure (Load No., carriers, costs, etc.)
 
-### Output Features:
+### Output Features
+
 - **Main Report**: Processed data with color-coded sections
   - 🔵 Selected Carrier columns (light blue)
   - 🟠 Least Cost Carrier columns (light orange)
@@ -32,12 +35,14 @@ A simplified version of the BVC_Automator that focuses only on the core TMS busi
 
 ## 🛠️ Technical Details
 
-### Dependencies:
+### Dependencies
+
 - Python 3.8+
 - pandas >= 1.3.0
 - openpyxl >= 3.0.0
 
-### Manual Installation:
+### Manual Installation
+
 ```bash
 pip install pandas openpyxl
 python basic_processor.py path/to/your/file.xlsx
@@ -46,6 +51,7 @@ python basic_processor.py path/to/your/file.xlsx
 ## 📊 Expected File Structure
 
 Your Excel file should have:
+
 - Row 4, Column B: Company name
 - Row 6, Column B: Date range
 - Row 8: Column headers
@@ -54,18 +60,11 @@ Your Excel file should have:
 ## 🔍 Key Differences from BVC_Automator
 
 **Simplified Features:**
+
 - ✅ Core business logic rules
 - ✅ Professional Excel formatting
 - ✅ Summary statistics
 - ✅ Command-line interface
-
-**Removed Complex Features:**
-- ❌ Advanced GUI interface
-- ❌ Complex logging system
-- ❌ Advanced validation framework
-- ❌ Configuration management
-- ❌ Multiple report types
-- ❌ Advanced error handling UI
 
 ## 📁 Files
 
@@ -74,6 +73,3 @@ Your Excel file should have:
 - `requirements.txt` - Python dependencies
 - `README.md` - This documentation
 
----
-
-**Simplified from BVC_Automator for focused TMS report processing**
