@@ -66,10 +66,45 @@ Your Excel file should have:
 - ✅ Summary statistics
 - ✅ Command-line interface
 
+## 🤖 For AI Integration / Developers
+
+**Perfect for ChatGPT, Claude, or any AI assistant to adapt:**
+
+### Quick Integration (30 seconds)
+```python
+# Copy core_logic.py to your project
+from core_logic import TMSProcessor
+
+processor = TMSProcessor()
+df = processor.process_excel_file("your_file.xlsx")
+processor.save_to_excel(df, "output.xlsx")
+```
+
+### Key Files for Integration
+- **`core_logic.py`** - Modular business logic (AI-friendly)
+- **`simple_examples.py`** - 5 usage patterns
+- **`INTEGRATION_GUIDE.md`** - Complete AI adaptation guide
+
+### AI Assistant Instructions
+The code is designed for easy AI understanding:
+- ✅ Clean, documented functions
+- ✅ Modular business rules
+- ✅ Simple examples provided
+- ✅ Customization points clearly marked
+
 ## 📁 Files
 
-- `basic_processor.py` - Main processing logic
+### Main Application
+- `basic_processor.py` - Full GUI application with persistent results
 - `run_basic_processor.bat` - Windows batch runner
 - `requirements.txt` - Python dependencies
+
+### Integration Files (for developers/AI)
+- `core_logic.py` - Modular business logic class
+- `simple_examples.py` - 5 different usage examples
+- `INTEGRATION_GUIDE.md` - Complete integration documentation
+
+### Support Files
+- `logger_config.py` - Logging utilities
 - `README.md` - This documentation
 
