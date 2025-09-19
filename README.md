@@ -4,10 +4,15 @@ A simplified version of the BVC_Automator that focuses only on the core TMS busi
 
 ## 🚀 Quick Start
 
+### One-Click Launch
+1. **Double-click** `START_HERE.bat` (recommended)
+2. **Select files** using the Browse button
+3. **Click Process** and wait for completion
+4. **Check Results list** for processing history (persists between sessions)
+
+### Alternative Launch
 1. **Double-click** `run_basic_processor.bat`
-2. **Enter** the path to your Excel file when prompted
-3. **Wait** for processing to complete
-4. **Find** your processed file with `_BASIC_PROCESSED.xlsx` suffix
+2. Follow the same steps above
 
 ## 📋 What It Does
 
@@ -95,8 +100,9 @@ The code is designed for easy AI understanding:
 ## 📁 Files
 
 ### Main Application
+- `START_HERE.bat` - **One-click launcher (RECOMMENDED)**
 - `basic_processor.py` - Full GUI application with persistent results
-- `run_basic_processor.bat` - Windows batch runner
+- `run_basic_processor.bat` - Alternative launcher
 - `requirements.txt` - Python dependencies
 
 ### Integration Files (for developers/AI)

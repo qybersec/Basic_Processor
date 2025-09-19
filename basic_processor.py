@@ -73,7 +73,6 @@ class ModernTMSProcessor:
         self.TL_CARRIERS = {
             'LANDSTAR RANGER INC',
             'SMARTWAY TRANSPORTATION INC',
-            'SMARTWAY CORPORATION INC'
         }
 
         # Performance tracking

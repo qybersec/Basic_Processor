@@ -35,7 +35,7 @@ if errorlevel 1 (
 echo.
 echo Starting Basic TMS Processor GUI...
 echo.
-python basic_gui.py
+python basic_processor.py
 
 echo.
 echo Processing complete. Press any key to exit...
